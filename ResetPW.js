@@ -9,7 +9,7 @@ const ResetPW = ({ navigation }) => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [confirmpassword, setConfirmpassword] = useState('');
-
+//Lai la dg house 
   const handleResetPassword = async () => {
     if (!username || !password || !confirmpassword) {
       message.error('Please enter complete information!');
